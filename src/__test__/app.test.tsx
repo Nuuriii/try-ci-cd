@@ -15,4 +15,9 @@ describe("basic", () => {
       const findText = screen.getByText("Hello World");
       expect(findText).toBeTruthy();
    });
+   test("find id element", () => {
+      render(<App />);
+      const findIdElement = document.getElementById("app");
+      expect(findIdElement).toBeTruthy();
+   });
 });
