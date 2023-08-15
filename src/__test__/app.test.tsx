@@ -8,7 +8,7 @@ describe("basic", () => {
          return a + b;
       }
 
-      expect(sum(2, 3)).toEqual(4);
+      expect(sum(2, 3)).toEqual(5);
    });
    test("find hello world", () => {
       render(<App />);
